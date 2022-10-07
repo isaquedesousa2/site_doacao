@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { FaApple } from "react-icons/fa";
 import { FaFacebookF } from "react-icons/fa";
 import { FaGoogle } from "react-icons/fa";
@@ -45,12 +46,12 @@ const Login = () => {
           </div>
         </div>
         <div className="flex flex-col gap-6 text-center">
-          <a href="/registrar" className="underline">
+          <Link href="/registrar" className="underline">
             Não possui uma conta?
-          </a>
-          <a href="" className="underline">
-            Esqueceu a senha?
-          </a>
+          </Link>
+          <Link href="" className="underline">
+            Esqueceu sua senha?
+          </Link>
         </div>
       </div>
       <Footer />

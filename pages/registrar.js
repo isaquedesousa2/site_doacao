@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { FaApple } from "react-icons/fa";
 import { FaFacebookF } from "react-icons/fa";
 import { FaGoogle } from "react-icons/fa";
@@ -48,9 +49,9 @@ const Register = () => {
             </button>
           </div>
         </div>
-        <a href="/entrar" className="underline">
+        <Link href="/entrar" className="underline">
           Já possui uma conta?
-        </a>
+        </Link>
       </div>
       <Footer />
     </>
