@@ -1,7 +1,7 @@
 const Menu = () => {
   return (
-    <header className="container mx-auto flex justify-between py-6">
-      <h1>O Ajuda Segura</h1>
+    <header className="container mx-auto flex justify-between items-center py-6">
+      <a href="/" className="font-semibold text-2xl">O Ajuda Segura</a>
       <nav className="font-semibold flex gap-12">
         <a href="#">Início</a>
         <a href="#">Como doar?</a>
