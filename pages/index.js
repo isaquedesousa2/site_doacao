@@ -3,6 +3,7 @@ import { IoMdPerson } from "react-icons/io";
 import maps from "../assets/img/maps.png";
 import Image from "next/image";
 import Footer from "../components/footer";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -47,12 +48,12 @@ export default function Home() {
         <div className="boxs-ajuda"></div>
       </section>
       <section className="flex items-center justify-center mx-auto mt-48 mb-52 w-full">
-        <a
+        <Link
           href="https://www.google.com/maps/place/R.+S%C3%A3o+Louren%C3%A7o+-+Ilhotas,+Teresina+-+PI,+64015-340/data=!4m2!3m1!1s0x78e3754c1d506ef:0xa55cb7fc050d6ac2?sa=X&ved=2ahUKEwiCy_S_x636AhWQD7kGHQCSB9wQ8gF6BAgbEAE"
           target="_blank"
         >
           <Image src={maps} alt="" />
-        </a>
+        </Link>
       </section>
       <Footer />
     </div>
