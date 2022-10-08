@@ -65,6 +65,18 @@ const Doacoes = () => {
       nome: "Água sanitária",
       img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDZDE7BeeIekl7LZYAdzGESDSwVf2LKin-BQ&usqp=CAU",
     },
+    {
+      nome: "Chinelo",
+      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBV3v4rMxv0czH-Cibx4PLin947lUEr4Jc2w&usqp=CAU",
+    },
+    {
+      nome: "Calça",
+      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8IsRUoV_-ee35otqh9LOepbXl_oRCdMbsXA&usqp=CAU",
+    },
+    {
+      nome: "Blusa feminina",
+      img: "https://ph-cdn3.ecosweb.com.br/imagens01/foto/moda-feminina/blusa-manga-curta/blusa-manga-curta-em-malha-de-viscose-preto_662578_301_1.jpg"
+    }
   ];
 
   const Box = ({ nome, img }) => {

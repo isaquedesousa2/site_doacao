@@ -13,9 +13,9 @@ export default function Home() {
         <h1 className=" text-4xl sm:text-5xl">Seja um doador, mude vidas</h1>
         <p className="text-[#84878a] text-sm sm:text-base font-medium">
           O ajuda segura tem como objetivo de facilitar as pessoas fazerem sua
-          doação de modo rápido e eficaz. E também vem com o propósito de ajudar
+          doação de modo rápido e eficaz. Temos como propósito de ajudar
           as comunidades, adquirindo alimentos, roupas e brinquedos para as
-          crianças Venha você também fazer parte desse grupo ajudando as
+          crianças. Venha você também fazer parte desse grupo ajudando as
           comunidades e ajude o Brasil na vulnerabilidade social
         </p>
         <button className="bg-button text-black font-medium text-base sm:text-lg border-none rounded-[4px] cursor-pointer px-20 py-3">
@@ -46,10 +46,14 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="px-5 container mx-auto w-full py-28 flex flex-col justify-center items-center text-center">
+      {/* <section className="px-5 container mx-auto w-full py-28 flex flex-col justify-center items-center text-center">
         <h1 className="text-3xl">Já são varias pessoas ajudadas</h1>
-        <div className="boxs-ajuda"></div>
-      </section>
+        <div className="boxs-ajuda">
+          <div>
+            <h5>1.032 pessoas ajudadas</h5>
+          </div>
+        </div>
+      </section> */}
       <section className="flex items-center justify-center mx-auto  mb-52 w-full">
         <Link
           href="https://www.google.com/maps/place/R.+S%C3%A3o+Louren%C3%A7o+-+Ilhotas,+Teresina+-+PI,+64015-340/data=!4m2!3m1!1s0x78e3754c1d506ef:0xa55cb7fc050d6ac2?sa=X&ved=2ahUKEwiCy_S_x636AhWQD7kGHQCSB9wQ8gF6BAgbEAE"

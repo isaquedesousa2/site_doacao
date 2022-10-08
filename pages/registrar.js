@@ -43,7 +43,7 @@ const Register = () => {
 
           <div className="flex flex-col w-full gap-4 max-w-md">
             <button className="border border-secondary w-full flex justify-start h-16 items-center px-3 rounded gap-4 sm:justify-center hover:bg-secondary transition-colors">
-              <FaGoogle size={27} /> <span>Entra com google</span>
+              <FaGoogle className="bg-transparent" size={27} /> <span className="bg-transparent">Cadastrar com google</span>
             </button>
           </div>
         </div>

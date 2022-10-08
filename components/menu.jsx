@@ -23,11 +23,7 @@ const Menu = () => {
                 Início
               </span>
             </Link>
-            <Link href="#comoDoar">
-              <span className="hover:text-secondary cursor-pointer transition-colors">
-                Como doar?
-              </span>
-            </Link>
+            
             <Link href="/doacoes">
               <span className="hover:text-secondary cursor-pointer transition-colors">
                 Faça sua doação
@@ -66,7 +62,7 @@ const Menu = () => {
             </h1>
           </Link>
           <nav className="font-semibold flex flex-col gap-12 mt-10">
-            <Link href="#">Início</Link>
+            <Link href="/">Início</Link>
             <Link href="#comoDoar">Como doar?</Link>
             <Link href="/doacoes">Faça sua doação</Link>
             <Link href="/sobre">Sobre</Link>
