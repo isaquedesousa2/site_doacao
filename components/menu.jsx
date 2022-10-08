@@ -63,9 +63,9 @@ const Menu = () => {
           <nav className="font-semibold flex flex-col gap-12 mt-10">
             {/* <Link href="#">Início</Link>
             <Link href="#">Como doar?</Link> */}
-            <Link href="#">Doações</Link>
+            <Link href="/doacoes">Doações</Link>
             <Link href="#">Faça sua doação</Link>
-            <Link href="#">Sobre</Link>
+            <Link href="/sobre">Sobre</Link>
           </nav>
           <div className="flex flex-col gap-12 items-center mt-10">
             <Link href="/entrar">Entrar</Link>

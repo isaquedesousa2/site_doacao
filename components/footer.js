@@ -9,7 +9,7 @@ const Footer = () => {
           Doe e fomente uma vida com autonomia e bem-estar!
         </p>
         <nav className="flex flex-wrap items-center  justify-center gap-5">
-          <Link href="#" className="hover:text-secondary">
+          <Link href="/doacoes" className="hover:text-secondary">
             <span className="hover:text-secondary cursor-pointer transition-colors">
               Doações
             </span>
