@@ -1,36 +1,36 @@
 import Link from "next/link";
 
 const Footer = () => {
-    return (
-      <footer className="w-full container mx-auto mt-24">
-        <div className="flex flex-col gap-5">
-          <h1 className="font-semibold text-2xl">O Ajuda Segura</h1>
-          <p>Doe e fomente uma vida com autonomia e bem-estar!</p>
-          <ul className="flex gap-5">
-            <Link className="text-[#84878a] font-semibold text-sm" href="#">
-              Início
-            </Link>
-            <Link className="text-[#84878a] font-semibold text-sm" href="#">
-              Como doar?
-            </Link>
-            <Link className="text-[#84878a] font-semibold text-sm" href="#">
+  return (
+    <footer className="w-full container mx-auto mt-24 px-5 ">
+      <div className="flex items-center flex-col gap-5">
+        <h1 className="font-semibold text-2xl">O Ajuda Segura</h1>
+        <p className="text-center">
+          Doe e fomente uma vida com autonomia e bem-estar!
+        </p>
+        <nav className="flex flex-wrap items-center  justify-center gap-5">
+          <Link href="#" className="hover:text-secondary">
+            <span className="hover:text-secondary cursor-pointer transition-colors">
               Doações
-            </Link>
-            <Link className="text-[#84878a] font-semibold text-sm" href="#">
+            </span>
+          </Link>
+          <Link href="#">
+            <span className="hover:text-secondary cursor-pointer transition-colors">
               Faça sua doação
-            </Link>
-            <Link className="text-[#84878a] font-semibold text-sm" href="#">
+            </span>
+          </Link>
+          <Link href="/sobre" className="hover:text-secondary">
+            <span className="hover:text-secondary cursor-pointer transition-colors">
               Sobre
-            </Link>
-          </ul>
-        </div>
-        <div className="w-full mt-14 mb-4 text-center">
-          <span className="text-[#84878a] font-semibold text-sm">
-            &copy;2022 - oajudasegura{" "}
-          </span>
-        </div>
-      </footer>
-    );
-}
+            </span>
+          </Link>
+        </nav>
+      </div>
+      <div className="w-full py-5 text-center mt-16">
+        <span>O Ajuda Segura - Todos os direitos reservados</span>
+      </div>
+    </footer>
+  );
+};
 
 export default Footer;

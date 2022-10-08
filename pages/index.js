@@ -9,16 +9,16 @@ export default function Home() {
   return (
     <div className="mx-auto">
       <Menu />
-      <section className="container mx-auto w-full max-w-3xl text-center p-8 flex gap-4 flex-col justify-center items-center mt-24">
-        <h1 className="text-5xl">Seja um doador, mude vidas</h1>
-        <p className="text-[#84878a] text-base font-medium">
+      <section className="container mx-auto w-full max-w-3xl text-center p-8 flex gap-4 flex-col justify-center items-center mt-24 px-5">
+        <h1 className=" text-4xl sm:text-5xl">Seja um doador, mude vidas</h1>
+        <p className="text-[#84878a] text-sm sm:text-base font-medium">
           O ajuda segura tem como objetivo de facilitar as pessoas fazerem sua
           doação de modo rápido e eficaz. E também vem com o propósito de ajudar
           as comunidades, adquirindo alimentos, roupas e brinquedos para as
           crianças Venha você também fazer parte desse grupo ajudando as
           comunidades e ajude o Brasil na vulnerabilidade social
         </p>
-        <button className="bg-button text-black font-bold text-lg border-none rounded-[4px] cursor-pointer px-20 py-3">
+        <button className="bg-button text-black font-bold text-base sm:text-lg border-none rounded-[4px] cursor-pointer px-20 py-3">
           Fazer minha doação
         </button>
       </section>
@@ -39,7 +39,7 @@ export default function Home() {
           </div>
           <div className="flex flex-col justify-center items-center gap-3">
             <IoMdPerson size={50} />
-            <p>Confrime sua doação</p>
+            <p>Confirme sua doação</p>
           </div>
         </div>
       </section>
