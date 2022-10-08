@@ -9,25 +9,23 @@ const Sobre = () => {
         <div>
           <h1 className="text-4xl font-bold">Sobre</h1>
           <p className="mt-8">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industrys standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book. It has survived not
-            only five centuries, but also the leap into electronic typesetting,
-            remaining essentially unchanged. It was popularised in the 1960s
-            with the release of Letraset sheets containing Lorem Ipsum passages,
-            and more recently with desktop publishing software like Aldus
-            PageMaker including versions of Lorem Ipsum. Why do we use it? It is
-            a long established fact that a reader will be distracted by the
-            readable content of a page when looking at its layout. The point of
-            using Lorem Ipsum is that it has a more-or-less normal distribution
-            of letters, as opposed to using Content here, content here, making
-            it look like readable English. Many desktop publishing packages and
-            web page editors now use Lorem Ipsum as their default model text,
-            and a search for lorem ipsum will uncover many web sites still in
-            their infancy. Various versions have evolved over the years,
-            sometimes by accident, sometimes on purpose (injected humour and the
-            like).
+            1 - O ajuda agora é uma equipe de estudantes do curso Análise e
+            Desenvolvimento de Sistemas da faculdade Uninassau (Teresina/PI-
+            Jóquei). O projeto teve início na data (27/08/2022), com o objetivo
+            de auxiliar as pessoas realizarem doações de forma mais fácil e
+            prático para comunidade AMBI (Associação de Mulheres do Bairro
+            Ilhotas).
+            <br />
+            <br />
+            2 - O projeto foi elaborado com a intenção de ajudar você a realizar
+            o desejo de ajudar as comunidades com arrecadações de doações, deste
+            modo beneficiar-las desenvolver-las.
+            <br />
+            <br />
+            3 - Créditos:
+            <br />
+            - Desenvolvedor: Isaque de Sousa Leal
+            <br />- Líder do projeto: Humberto Visqueira
           </p>
         </div>
       </div>
