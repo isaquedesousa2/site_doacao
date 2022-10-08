@@ -88,7 +88,6 @@ const Menu = () => {
     return (
       <div
         onClick={() => {
-          console.log(menu);
           if (menu) setMenu(false);
           else setMenu(true);
         }}

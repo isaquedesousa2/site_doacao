@@ -109,7 +109,7 @@ const Doacoes = () => {
           <span className="font-semibold text-2xl ">Todos os produtos</span>
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 grid- gap-5 mt-5 mb-16">
             {produtos.map((item) => (
-              <Box img={item.img} nome={item.nome} />
+              <Box key={item.img} img={item.img} nome={item.nome} />
             ))}
           </div>
         </div>
