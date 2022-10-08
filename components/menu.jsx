@@ -18,12 +18,17 @@ const Menu = () => {
             </h1>
           </Link>
           <nav className="font-semibold flex gap-12">
-            <Link href="/doacoes" className="hover:text-secondary">
+            <Link href="/">
               <span className="hover:text-secondary cursor-pointer transition-colors">
-                Doações
+                Início
               </span>
             </Link>
-            <Link href="#">
+            <Link href="#comoDoar">
+              <span className="hover:text-secondary cursor-pointer transition-colors">
+                Como doar?
+              </span>
+            </Link>
+            <Link href="/doacoes">
               <span className="hover:text-secondary cursor-pointer transition-colors">
                 Faça sua doação
               </span>
@@ -61,10 +66,9 @@ const Menu = () => {
             </h1>
           </Link>
           <nav className="font-semibold flex flex-col gap-12 mt-10">
-            {/* <Link href="#">Início</Link>
-            <Link href="#">Como doar?</Link> */}
-            <Link href="/doacoes">Doações</Link>
-            <Link href="#">Faça sua doação</Link>
+            <Link href="#">Início</Link>
+            <Link href="#comoDoar">Como doar?</Link>
+            <Link href="/doacoes">Faça sua doação</Link>
             <Link href="/sobre">Sobre</Link>
           </nav>
           <div className="flex flex-col gap-12 items-center mt-10">

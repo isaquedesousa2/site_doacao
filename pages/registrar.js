@@ -1,6 +1,4 @@
 import Link from "next/link";
-import { FaApple } from "react-icons/fa";
-import { FaFacebookF } from "react-icons/fa";
 import { FaGoogle } from "react-icons/fa";
 import Footer from "../components/footer";
 import Menu from "../components/menu";

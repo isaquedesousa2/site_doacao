@@ -18,13 +18,16 @@ export default function Home() {
           crianças Venha você também fazer parte desse grupo ajudando as
           comunidades e ajude o Brasil na vulnerabilidade social
         </p>
-        <button className="bg-button text-black font-bold text-base sm:text-lg border-none rounded-[4px] cursor-pointer px-20 py-3">
+        <button className="bg-button text-black font-medium text-base sm:text-lg border-none rounded-[4px] cursor-pointer px-20 py-3">
           Fazer minha doação
         </button>
       </section>
-      <section className="w-full px-5 container mx-auto mt-52 flex flex-col justify-center items-center">
+      <section
+        id="comoDoar"
+        className="w-full px-5 container mx-auto py-28 flex flex-col justify-center items-center"
+      >
         <h1 className="text-3xl">Como doar?</h1>
-        <div className="flex flex-wrap mt-24 gap-24 items-center justify-center">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 mt-24 gap-24">
           <div className="flex flex-col justify-center items-center gap-3">
             <IoMdPerson size={50} />
             <p>Crie sua conta</p>
@@ -43,16 +46,18 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="px-5 container mx-auto w-full mt-48 flex flex-col justify-center items-center text-center">
+      <section className="px-5 container mx-auto w-full py-28 flex flex-col justify-center items-center text-center">
         <h1 className="text-3xl">Já são varias pessoas ajudadas</h1>
         <div className="boxs-ajuda"></div>
       </section>
-      <section className="flex items-center justify-center mx-auto mt-48 mb-52 w-full">
+      <section className="flex items-center justify-center mx-auto  mb-52 w-full">
         <Link
           href="https://www.google.com/maps/place/R.+S%C3%A3o+Louren%C3%A7o+-+Ilhotas,+Teresina+-+PI,+64015-340/data=!4m2!3m1!1s0x78e3754c1d506ef:0xa55cb7fc050d6ac2?sa=X&ved=2ahUKEwiCy_S_x636AhWQD7kGHQCSB9wQ8gF6BAgbEAE"
           target="_blank"
         >
-          <Image src={maps} alt="" />
+          <div className="w-full">
+            <Image sizes={"100%"} src={maps} />
+          </div>
         </Link>
       </section>
       <Footer />
