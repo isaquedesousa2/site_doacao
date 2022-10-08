@@ -9,7 +9,7 @@ const Sobre = () => {
         <div>
           <h1 className="text-4xl font-bold">Sobre</h1>
           <p className="mt-8">
-            1 - O ajuda agora é uma equipe de estudantes do curso Análise e
+            O ajuda agora é uma equipe de estudantes do curso Análise e
             Desenvolvimento de Sistemas da faculdade Uninassau (Teresina/PI-
             Jóquei). O projeto teve início na data (27/08/2022), com o objetivo
             de auxiliar as pessoas realizarem doações de forma mais fácil e
@@ -17,15 +17,16 @@ const Sobre = () => {
             Ilhotas).
             <br />
             <br />
-            2 - O projeto foi elaborado com a intenção de ajudar você a realizar
+            O projeto foi elaborado com a intenção de ajudar você a realizar
             o desejo de ajudar as comunidades com arrecadações de doações, deste
             modo beneficiar-las desenvolver-las.
             <br />
             <br />
-            3 - Créditos:
+            Créditos:
             <br />
-            - Desenvolvedor: Isaque de Sousa Leal
-            <br />- Líder do projeto: Humberto Visqueira
+            Isaque de Sousa Leal
+            <br />
+            Humberto Visqueira
           </p>
         </div>
       </div>
