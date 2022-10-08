@@ -18,9 +18,11 @@ export default function Home() {
           crianças. Venha você também fazer parte desse grupo ajudando as
           comunidades e ajude o Brasil na vulnerabilidade social
         </p>
-        <button className="bg-button text-black font-medium text-base sm:text-lg border-none rounded-[4px] cursor-pointer px-20 py-3">
+       <Link href="/doacoes">
+           <button className="bg-button text-black font-medium text-base sm:text-lg border-none rounded-[4px] cursor-pointer px-20 py-3">
           Fazer minha doação
         </button>
+      </Link>
       </section>
       <section
         id="comoDoar"
